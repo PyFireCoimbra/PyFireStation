@@ -1,0 +1,4 @@
+numpy >= 1.22
+pydantic >= 1.9
+scipy >= 1.8
+xarray >= 2022.3
