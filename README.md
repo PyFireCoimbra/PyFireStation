@@ -4,7 +4,7 @@
 
 Fire propagation simulation based on the Rothermel equations, following closely the implementation of [FireStation -
 Lopes et. al (2002)](https://doi.org/10.1016/S1364-8152%2801%2900072-X). The purpose of this package is to provide an 
-easy and modern framework for testing and developing  
+easy and modern framework for testing and developing fire propagation and fuel parameter models, and to support future scientific research in these fields.
 
 ## Requirements
 
