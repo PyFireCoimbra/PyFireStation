@@ -174,4 +174,4 @@ simulation_grid = grids.SimulationGrid(fuel_grid=fuel_grid,
 ## License
 
 **pyfirestation** is available under the **GNU GPLv3** license. 
-See the [LICENSE](https://github.com/PyFireCoimbra/PyFireStation/LICENSE)  for more info.
+See the [LICENSE](https://github.com/PyFireCoimbra/PyFireStation/blob/main/LICENSE)  for more info.
