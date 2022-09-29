@@ -169,7 +169,7 @@ simulation_grid = grids.SimulationGrid(fuel_grid=fuel_grid,
 
 * Daniel Neves ([@danielneves1](https://github.com/danielneves1))
 
-* Jaime Oliveira da Silva ([@jaimepsilva](https://github.com/jaimepsilva))
+* Jaime Silva ([@jaimepsilva](https://github.com/jaimepsilva))
 
 ## License
 
