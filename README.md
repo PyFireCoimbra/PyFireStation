@@ -53,11 +53,11 @@ git clone https://github.com/PyFireCoimbra/PyFireStation.git
 And then install the package using `pip`:
 
 ```
-python -m pip install -e pyfirestation
+python -m pip install -e PyFireStation
 
 # or 
 
-python3 -m pip install -e pyfirestation
+python3 -m pip install -e PyFireStation
 ```
 
 ## Usage
