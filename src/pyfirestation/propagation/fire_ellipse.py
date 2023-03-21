@@ -24,13 +24,16 @@ class FireEllipseType(Enum):
 
 
 class FireEllipse:
-    def __init__(self, wind_speed: float, theta: float, *, d: float = 1.0) -> None:
+    def __init__(self, wind: float, wind_equiv: float, theta: float, *, d: float = 1.0) -> None:
         """Defines the ellipse considered in the fire spread simulation."""
         self._mode: FireEllipseType
 
         self._wind_speed: float
-        self.wind_speed = wind_speed
-
+        self.wind_speed = wind_equiv
+        
+        self._wind: float
+        self.wind = wind
+        
         self.theta = theta
         self.d = d
 
@@ -45,7 +48,7 @@ class FireEllipse:
         return self._mode
 
     def update_mode(self) -> None:
-        if self.wind_speed > 0.2:
+        if self.wind > 0.2:
             self._mode = FireEllipseType.DOUBLE
         else:
             self._mode = FireEllipseType.SINGLE
