@@ -215,11 +215,12 @@ class Propagation:
 
         height_source = self.grid.terrain_grid[source_cell].height_center
         flux = np.linalg.norm(spread.total_flux)
+        wind=self.grid.wind_grid[source_cell]
         wind_speed = spread.equivalent_wind
         flux_x, flux_y = spread.total_flux
         flux_direction = np.arctan2(flux_y, flux_x) % (2 * np.pi)
 
-        ellipse = FireEllipse(wind_speed=wind_speed, theta=flux_direction)
+        ellipse = FireEllipse(wind=wind,wind_equiv=wind_speed, theta=flux_direction)
 
         propagations = []
 
